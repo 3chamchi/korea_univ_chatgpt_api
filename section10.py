@@ -6,7 +6,7 @@ import requests
 
 # 1-1. API 연동을 위한 요청 패키지 설치.  pip install requests
 # 1-2. ChatGPT API 키 가져오기
-chatgpt_api_key = "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"
+chatgpt_api_key = "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"
 
 # 2. ChatGPT API 요청
 url = "https://api.openai.com/v1/chat/completions"
