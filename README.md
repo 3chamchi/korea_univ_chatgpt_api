@@ -16,16 +16,20 @@
 - 예제 프로젝트를 진행하며 Python, API, ChatGPT의 역량 강화 및 숙력도 향상
 
 ## 커리큘럼
-- [x] 1강 - 프로그래밍, 파이썬 소개 및 기초 문법
-- [x] 2강 - 파이썬 자료구조, 함수
-- [x] 3강 - 파이썬 실습
-- [x] 4강 - ChatGPT API 기초 및 ChatGPT API 연동
-- [x] 5강 - ChatGPT API 활용 - 언어 번역기 프로젝트
-- [ ] 6강 - ChatGPT API 활용 - 이미지 생성기 프로젝트
-- [ ] 7강 - 
-- [ ] 8강 - 
-- [ ] 9강 - 
-- [ ] 10강 -
+- [x]  1강. 프로그래밍, 파이썬 소개 및 기초 문법
+- [x]  2강. 파이썬 자료구조, 함수
+- [x]  3강. 파이썬 실습
+- [x]  4강. ChatGPT API 기초 및 ChatGPT API 연동
+- [x]  5강. ChatGPT API 활용 - 언어 번역기, 이미지 생성기 프로젝트
+- [ ]  6강. ChatGPT API 활용 - 이미지 생성기 응용, 인터뷰 질문지 제작 프로젝트
+- [ ]  7강. ChatGPT API 활용 - 상품/서비스 설명 생성기 프로젝트
+- [ ]  8강. ChatGPT API 활용 - 감정 분석 프로젝트
+- [ ]  9강. ChatGPT API 활용 - 아이디어 브레인스토밍 도우미 프로젝트
+- [ ] 10강. 최종 프로젝트 및 발표 
+
+## 참고 링크
+* 파이썬 무료 책 : https://wikidocs.net/book/1
+* OpenAI Developers(ChatGPT API) :  https://platform.openai.com/
 
 # 설정 및 명령어
 ## 설정
