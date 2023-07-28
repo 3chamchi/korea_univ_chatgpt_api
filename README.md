@@ -51,7 +51,7 @@
 
 #### 가상환경 생성
 * ```python -m venv venv```
-* ```python -m venv {가상환경명}```
+* ```python -m venv <가상환경명>```
 
 #### 가상환경 접속  
 * 가상환경 접속 시 가상환경 폴더가 있는 위치에서 실행
@@ -60,8 +60,11 @@
 * (Mac) ```soruce venv/bin/activate```
 
 #### 패키지 설치
-* ```python -m pip install <패키지명>}```
+* ```python -m pip install <패키지명>```
 * ```pip install <패키지명>```
+  * 교육 중 사용하는 패키지 : ```reqeusts```, ```openai```
+  * ```pip install reqeusts``` 
+  * ```pip install openai``` 
 
 #### 패키지 확인
 * ```pip list```
