@@ -26,6 +26,7 @@
 ## 참고 링크
 * 파이썬 무료 책 : https://wikidocs.net/book/1
 * OpenAI Developers(ChatGPT API) :  https://platform.openai.com/
+* ChatGPT API 적용 사례 : https://openai.com/customer-stories
 
 # 설정 및 명령어
 ## 설정
