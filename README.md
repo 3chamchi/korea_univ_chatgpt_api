@@ -82,8 +82,12 @@
 
 
 ### Fine-tuning 명령어 
-- 업그레이드 : `pip install --upgrade openai`
-- 키 설정 : `export OPENAI_API_KEY="<OPENAI_API_KEY>"`
+- 업그레이드
+  - windows : `pip install --upgrade openai`
+  - mac : `pip3 install --upgrade openai`
+- 키 설정
+  - windows : `$env:OPENAI_API_KEY="<OPENAI_API_KEY>"`
+  - mac : `export OPENAI_API_KEY="<OPENAI_API_KEY>"`
 - 데이터 검증 : `openai tools fine_tunes.prepare_data -f <LOCAL_FILE>`
 - 모델 생성 : `openai api fine_tunes.create -t <TRAIN_FILE_ID_OR_PATH> -m <BASE_MODEL>`
     - 모델 종류 : ada, babbage, curie, davinci
