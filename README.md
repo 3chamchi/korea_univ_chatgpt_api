@@ -79,3 +79,15 @@
 
 #### 현재 디렉토리 파일 등 확인
 * ```ls```
+
+
+### Fine-tuning 명령어 
+- 업그레이드 : `pip install --upgrade openai`
+- 키 설정 : `export OPENAI_API_KEY="<OPENAI_API_KEY>"`
+- 데이터 검증 : `openai tools fine_tunes.prepare_data -f <LOCAL_FILE>`
+- 모델 생성 : `openai api fine_tunes.create -t <TRAIN_FILE_ID_OR_PATH> -m <BASE_MODEL>`
+    - 모델 종류 : ada, babbage, curie, davinci
+- 생성한 모델 확인 : `openai api fine_tunes.list`
+- 상태 확인 : `openai api fine_tunes.follow -i <YOUR_FINE_TUNE_JOB_ID>`
+- CLI로 모델 사용 : `openai api completions.create -m <FINE_TUNED_MODEL> -p <YOUR_PROMPT>`
+- 모델 삭제 : `openai api models.delete -i <FINE_TUNED_MODEL>`
